@@ -1,0 +1,71 @@
+/* Reset default styles and apply some basic styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('wall.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+span{
+    font-size: 3em;
+}
+
+section{
+    padding-top: 20x;
+    font-size: 2em;
+    text-align:center;
+    color:bisque;
+    opacity: 1;
+}
+h1{
+    border-bottom: 5px solid white;
+}
+
+/* Apply some basic styles to the box */
+.box {
+    margin: 0;
+    padding:20px;
+    width: 80%;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    text-align: justify;
+    font-weight: lighter;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    margin-left:40%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(250, 245, 245, 0.19);
+    display: flex; /* Make it a flex container */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+}
+
+
+
+
+
+
+
